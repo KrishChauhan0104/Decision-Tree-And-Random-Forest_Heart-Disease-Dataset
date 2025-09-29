@@ -19,8 +19,8 @@ This project compares Decision Tree and Random Forest classifiers on the Heart D
 ## Results
 | Model           | Train Acc | Test Acc | CV Acc | AUC |
 |----------------|-----------|----------|--------|-----|
-| Decision Tree  | 0.98      | 0.78     | 0.76   | 0.80 |
-| Random Forest  | 1.00      | 0.84     | 0.82   | 0.89 |
+| Decision Tree  | 1.00      | 0.99     | 0.83   | 0.80 |
+| Random Forest  | 1.00      | 0.99     | 1.00   | 1.00 |
 
 ## Feature Importances
 - `thal`, `cp`, `ca`, `oldpeak` were most predictive.
